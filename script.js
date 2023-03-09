@@ -6,8 +6,8 @@ var btn = document.querySelector("#btn");
 
 
 function randomNumberGenerator() {
-	var randomNumber = Math.floor(Math.random() * 21);
-	alert(randomNumber);
+	var randomNumber = Math.floor(Math.random() * 20);
+	alert(randomNumber + 1);
 }
 
 // alert(randomNumber)is saying to put the the result of the var randomNumber in an alert. 
