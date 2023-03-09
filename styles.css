@@ -1,0 +1,32 @@
+h1{
+    color:blueviolet;
+    background: white;
+    font-family: fantasy;
+    font-size: 100px;
+}
+
+body{
+
+    background-image: linear-gradient(to bottom, rgb(253, 253, 253), white);
+    align-content: center;
+    text-align: center;
+}
+
+.img1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px, black;
+    margin-top: 45px
+
+} 
+
+.how {
+    color: darkblue;
+
+}
+
+.button {
+    color: yellowgreen;
+    
+}
