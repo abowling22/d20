@@ -6,7 +6,6 @@ function randomNumberGenerator1() {
 	alert(randomNumber + 1);
 }
 
-
 drunkBtn.addEventListener("click", randomNumberGenerator1);
 
 function randomDrunkNumber() {

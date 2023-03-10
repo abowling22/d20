@@ -3,13 +3,58 @@ h1{
     background: white;
     font-family: fantasy;
     font-size: 100px;
+    margin-bottom: 5px;
 }
 
+h2 {
+    color: green; 
+    margin-top: 15px;
+}
+
+.how {
+    color: blueviolet;
+    
+}
 body{
 
-    background-image: linear-gradient(to bottom, rgb(253, 253, 253), white);
+    background: powderblue;
     align-content: center;
     text-align: center;
+}
+
+.btn {
+    color: yellowgreen;
+    background-color: black;
+    margin-left: 0px;
+    border: 2px, thick;
+   /* height: 35px; */
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+    transition: opacity 3s,
+        color 1s;
+    box-shadow: 20px 5px 10px rgba(0,0,0 0.15); 
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+   /* vertical-align: top; by default the browser aligns text to text, this overrides that  */
+   font-family: fantasy;
+   font-size: 30px;
+   font-weight: bold;
+   tex-align: center
+
+}
+.btn:hover {
+    background-color: darkgreen;
+    color: red;
+    opacity: 0.1;
+    
+}
+.btn:active {
+    background-color: white;
 }
 
 .img1 {
@@ -17,16 +62,13 @@ body{
     height: 450px;
     border-radius: 50%;
     border: 2px, black;
-    margin-top: 45px
+    /* margin-right: 2000px; */
+   /* margin-bottom: 5000px; */
 
 } 
+.img2 {
+    width: 450px;
+    height: 450px
 
-.how {
-    color: darkblue;
 
-}
-
-.button {
-    color: yellowgreen;
-    
 }
