@@ -6,22 +6,30 @@
     margin-bottom: 5px;
 }
 
-.header2 {
+.flexbox-container {
+    display: flex;
+    background-color: brown;
+    /* height */
+}
+
+/* .header2 {
     color: green; 
     margin-top: 5px;
     display: inline-block;
-}
+    display: flex;
+} */
 
 .drunkWord:hover {
     color: red;
     text-decoration: underline;
 }
 
-.header3 {
+/* .header3 {
     color: red;
     display: inline-block;
+    display: flex;
     
-}
+} */
 body{
 
     background: powderblue;
@@ -29,9 +37,9 @@ body{
     text-align: center;
 }
 
-.button {
+/* .button {
     display: inline-block;
-}
+} */
 
 .btn {
     color: yellowgreen;
@@ -56,7 +64,7 @@ body{
    font-size: 30px;
    font-weight: bold;
    text-align: center;
-   display: inline-block;
+   /* display: inline-block; */
 
 }
 .btn:hover {
@@ -71,14 +79,19 @@ body{
 
 .d20image {
     width: 350px;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 50%;
     border-width: 5px, black; 
     border-style: solid;
+    /* display: 
+     */
 } 
 .img2 {
     width: 450px;
     height: 450px
 
+}
 
+div {
+    /* display: inline-block; */
 }
