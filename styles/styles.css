@@ -9,7 +9,8 @@
 .flexbox-container {
     display: flex;
     background-color: brown;
-    /* height */
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 /* .header2 {
