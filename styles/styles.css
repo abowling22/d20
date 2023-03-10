@@ -1,4 +1,4 @@
-h1{
+.header1{
     color:blueviolet;
     background: white;
     font-family: fantasy;
@@ -6,13 +6,20 @@ h1{
     margin-bottom: 5px;
 }
 
-h2 {
+.header2 {
     color: green; 
-    margin-top: 15px;
+    margin-top: 5px;
+    display: inline-block;
 }
 
-.how {
-    color: blueviolet;
+.drunkWord:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.header3 {
+    color: red;
+    display: inline-block;
     
 }
 body{
@@ -22,10 +29,14 @@ body{
     text-align: center;
 }
 
+.button {
+    display: inline-block;
+}
+
 .btn {
     color: yellowgreen;
     background-color: black;
-    margin-left: 0px;
+    margin-left: 5px;
     border: 2px, thick;
    /* height: 35px; */
     border-radius: 20px;
@@ -44,7 +55,8 @@ body{
    font-family: fantasy;
    font-size: 30px;
    font-weight: bold;
-   tex-align: center
+   text-align: center;
+   display: inline-block;
 
 }
 .btn:hover {
@@ -57,14 +69,12 @@ body{
     background-color: white;
 }
 
-.img1 {
-    width: 450px;
-    height: 450px;
+.d20image {
+    width: 350px;
+    display: inline-block;
     border-radius: 50%;
-    border: 2px, black;
-    /* margin-right: 2000px; */
-   /* margin-bottom: 5000px; */
-
+    border-width: 5px, black; 
+    border-style: solid;
 } 
 .img2 {
     width: 450px;
