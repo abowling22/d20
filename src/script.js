@@ -1,9 +1,6 @@
 var btnD20 = document.querySelector("#btnD20");
 var btnD6 = document.querySelector("#btnD6");
 
-
-
-//var d6 = new Dice(6);
 var dice = new Dice();
 
 btnD20.addEventListener("click", function() { 
@@ -13,25 +10,6 @@ btnD20.addEventListener("click", function() {
 btnD6.addEventListener("click", function() { 
 	dice.randomNumberGenerator(6);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // var btn = document.querySelector("#btn");
 // // document = the whole website
