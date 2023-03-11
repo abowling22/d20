@@ -1,6 +1,6 @@
-class Dice {
-	randomNumberGenerator() {
-    var randomNumber = Math.floor(Math.random() * 20);
+class Dice { 
+	randomNumberGenerator(number) {
+    var randomNumber = Math.floor(Math.random() * number);
 		alert(randomNumber + 1);
 	}
 }

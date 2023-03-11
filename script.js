@@ -1,15 +1,18 @@
-var btn = document.querySelector("#btn");
-
+var btnD20 = document.querySelector("#btnD20");
+var btnD6 = document.querySelector("#btnD6");
 
 
 
 //var d6 = new Dice(6);
 var dice = new Dice();
 
-btn.addEventListener("click", dice.randomNumberGenerator);
+btnD20.addEventListener("click", function() { 
+	dice.randomNumberGenerator(20);
+});
 
-
-
+btnD6.addEventListener("click", function() { 
+	dice.randomNumberGenerator(6);
+});
 
 
 
