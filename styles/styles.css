@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
 }
 
-.header1{
+.header1 {
     color:rgb(77, 16, 134);
     /* background: white; */
     font-family: fantasy;
@@ -22,7 +22,7 @@ body {
     background-color: aqua;
 }
 
-.d20image {
+.d20-image {
     width: 350px;
     /* display: inline-block; */
     border-radius: 50%;
@@ -41,16 +41,14 @@ body {
     flex combines flex grow, shrink, and basis, and uses two number values and auto so itll look like flex: 1, 0, 200px; with flex wrap this can be */
 }
 
- h2 {
+h2 {
     color: green; 
     margin-top: 5px;
-
 } 
 
-.drunkWord:hover {
+.drunk-word:hover {
     color: red;
     text-decoration: underline;
-    
 }
 
 .flexbox-for-button {
@@ -58,13 +56,12 @@ body {
     flex-direction: row-reverse;
 }
 
-
 .btn {
     color: yellowgreen;
     background-color: black;
     margin-left: 5px;
     border: 2px, thick;
-   /* height: 35px; */
+    /* height: 35px; */
     border-radius: 20px;
     cursor: pointer;
     border-width: 3px;
@@ -77,29 +74,26 @@ body {
     padding-bottom: 0px;
     padding-left: 16px;
     padding-right: 16px;
-   /* vertical-align: top; by default the browser aligns text to text, this overrides that  */
-   font-family: fantasy;
-   font-size: 30px;
-   font-weight: bold;
-   text-align: center;
-
+    /* vertical-align: top; by default the browser aligns text to text, this overrides that  */
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .btn:hover {
     background-color: darkgreen;
     color: red;
     opacity: 0.1;
-    
 }
+
 .btn:active {
     background-color: white;
 }
 
 .far-right-column {
     background-color: grey;
-
 }
-
 
 .flexbox-container-two {
     /*height: 200px; */
@@ -114,7 +108,7 @@ body {
     flex-wrap: wrap;
     /* if the screen gets smaller, the content will dynamically move */
     margin-top: 20px;
-   /* flex-direction: column; */
+    /* flex-direction: column; */
 }
 
 .dnd-dragons {
@@ -138,17 +132,11 @@ body {
 .dragon-four {
     width: 200px;
     height: 112.5px;
-
 }
 
-
-.img2 {
+.tavern-mug {
     width: 450px;
     height: 450px
-
 }
 
-
-
 /* https://www.youtube.com/watch?v=FTlczfR82mQ&ab_channel=developedbyed */
-
