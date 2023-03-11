@@ -1,6 +1,11 @@
+body {
+    background-image: url("../media/more-leaves-on-green.png");
+    background-repeat: repeat;
+}
+
 .header1{
-    color:blueviolet;
-    background: white;
+    color:rgb(77, 16, 134);
+    /* background: white; */
     font-family: fantasy;
     font-size: 100px;
     margin-bottom: 5px;
@@ -8,39 +13,42 @@
 
 .flexbox-container {
     display: flex;
-    background-color: brown;
-    justify-content: flex-start;
+    background-color: wheat;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-/* .header2 {
+.left-column {
+    background-color: aqua;
+}
+
+.d20image {
+    width: 350px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    border-width: 5px, black; 
+    border-style: solid;
+    /* display: 
+     */
+} 
+
+.right-column {
+    background-color: brown;
+    margin-right: 100px;
+}
+
+ h2 {
     color: green; 
     margin-top: 5px;
-    display: inline-block;
-    display: flex;
-} */
+
+} 
 
 .drunkWord:hover {
     color: red;
     text-decoration: underline;
+    te
 }
 
-/* .header3 {
-    color: red;
-    display: inline-block;
-    display: flex;
-    
-} */
-body{
-
-    background: powderblue;
-    align-content: center;
-    text-align: center;
-}
-
-/* .button {
-    display: inline-block;
-} */
 
 .btn {
     color: yellowgreen;
@@ -65,8 +73,6 @@ body{
    font-size: 30px;
    font-weight: bold;
    text-align: center;
-   /* display: inline-block; */
-
 }
 .btn:hover {
     background-color: darkgreen;
@@ -78,21 +84,29 @@ body{
     background-color: white;
 }
 
-.d20image {
-    width: 350px;
-    /* display: inline-block; */
-    border-radius: 50%;
-    border-width: 5px, black; 
-    border-style: solid;
-    /* display: 
-     */
-} 
+.flexbox-container-two {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.dnd-dragons {
+    width: 100px;
+}
+
+.dnd-dragons-2 {
+    width: 200px;
+    height: 112.5px;
+    margin-left: 10px;
+    border-color: blueviolet;
+    border-width: 20px;
+}
+
 .img2 {
     width: 450px;
     height: 450px
 
 }
 
-div {
-    /* display: inline-block; */
-}
