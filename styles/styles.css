@@ -14,7 +14,7 @@ body {
 .flexbox-container {
     display: flex;
     background-color: wheat;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -34,7 +34,11 @@ body {
 
 .right-column {
     background-color: brown;
-    margin-right: 100px;
+    /* order: 1; */
+    /* this will re order the child columns, 1 is the largest value (0 is on each child by default) so it moves this column to the right */
+    flex-grow: 1; 
+    /* this will grow the column to take all the available space in the parent container. use flex grow on multiple children to grow them to the size of the parent container flex-shrink is the opposite of this. Flex-basis add a default width in pixels.
+    flex combines flex grow, shrink, and basis, and uses two number values and auto so itll look like flex: 1, 0, 200px; with flex wrap this can be */
 }
 
  h2 {
@@ -46,7 +50,12 @@ body {
 .drunkWord:hover {
     color: red;
     text-decoration: underline;
-    te
+    
+}
+
+.flexbox-for-button {
+    background-color: blueviolet;
+    flex-direction: row-reverse;
 }
 
 
@@ -73,7 +82,9 @@ body {
    font-size: 30px;
    font-weight: bold;
    text-align: center;
+
 }
+
 .btn:hover {
     background-color: darkgreen;
     color: red;
@@ -84,16 +95,31 @@ body {
     background-color: white;
 }
 
+.far-right-column {
+    background-color: grey;
+
+}
+
+
 .flexbox-container-two {
+    /*height: 200px; */
+    /* this will fuck the parent container up if you change the screen size. */
     display: flex;
     background-color: wheat;
-    justify-content: center;
+    /* justify-content: center; /*
+    /* the justify content moves the elements in the flexbox. center flex=left is default, center is center, and flex-end is on the right. */
+    justify-content: space-between; 
+    /* this is adding space between for each element also can use space-around or space-evenly */
+    align-items: center;
     flex-wrap: wrap;
+    /* if the screen gets smaller, the content will dynamically move */
     margin-top: 20px;
+   /* flex-direction: column; */
 }
 
 .dnd-dragons {
-    width: 100px;
+    width: 200px;
+    height: 112.5px;
 }
 
 .dnd-dragons-2 {
@@ -104,9 +130,25 @@ body {
     border-width: 20px;
 }
 
+.dragon-three {
+    width: 200px;
+    height: 112.5px;
+}
+
+.dragon-four {
+    width: 200px;
+    height: 112.5px;
+
+}
+
+
 .img2 {
     width: 450px;
     height: 450px
 
 }
+
+
+
+/* https://www.youtube.com/watch?v=FTlczfR82mQ&ab_channel=developedbyed */
 
