@@ -2,7 +2,9 @@
   display: flex;
   background-color: aqua;
   flex-wrap: wrap;
-  flex-grow: 0
+  flex-grow: 1;
+  flex: 0 0 350px;
+  /* this combines the flex grow flex shrink and flex basis */
   /* order: 1;  */
   /* the bigger the number, the farther the element will move to the right in the parent box itll go. */
   /* flex-grow: 1; */
@@ -10,7 +12,7 @@
 }
 
 .d20-image {
-  width: 350px;
+  width: 250px;
   border-radius: 50%;
   border-width: 5px, black; 
   border-style: solid;
@@ -19,9 +21,12 @@
 } 
 
 .center-column {
+  display: flex;
   background-color: azure;
   flex-wrap: wrap;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  flex: 1 0 350px;
+
 }
 
 .descripton {
@@ -31,7 +36,11 @@
 .right-column {
   background-color: brown;
   flex-wrap: wrap;
-  flex-grow: 2;
+  /* flex-grow: 2; */
+  flex: 2 0 350px;
+  /* align-self: flex-end; */
+  /* this will align elements individually in their respective container */
+
   /* order: 1; */
   /* this will re order the child columns, 1 is the largest value (0 is on each child by default) so it moves this column to the right */
 
