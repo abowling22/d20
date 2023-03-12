@@ -1,0 +1,38 @@
+.flexbox-container-two {
+  /*height: 200px; */
+  /* this will fuck the parent container up if you change the screen size. */
+  display: flex;
+  background-color: wheat;
+  /* justify-content: center; /*
+  /* the justify content moves the elements in the flexbox. center flex=left is default, center is center, and flex-end is on the right. */
+  justify-content: space-between; 
+  /* this is adding space between for each element also can use space-around or space-evenly */
+  align-items: center;
+  flex-wrap: wrap;
+  /* if the screen gets smaller, the content will dynamically move */
+  margin-top: 20px;
+  /* flex-direction: column; */
+}
+
+.dnd-dragons {
+  width: 200px;
+  height: 112.5px;
+}
+
+.dnd-dragons-2 {
+  width: 200px;
+  height: 112.5px;
+  margin-left: 10px;
+  border-color: blueviolet;
+  border-width: 20px;
+}
+
+.dragon-three {
+  width: 200px;
+  height: 112.5px;
+}
+
+.dragon-four {
+  width: 200px;
+  height: 112.5px;
+}

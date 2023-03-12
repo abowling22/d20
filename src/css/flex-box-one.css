@@ -1,0 +1,94 @@
+.left-column {
+  display: flex;
+  background-color: aqua;
+  flex-wrap: wrap;
+  flex-grow: 0
+  /* order: 1;  */
+  /* the bigger the number, the farther the element will move to the right in the parent box itll go. */
+  /* flex-grow: 1; */
+  /* this is growing the child box to the remaining size of the parent box */
+}
+
+.d20-image {
+  width: 350px;
+  border-radius: 50%;
+  border-width: 5px, black; 
+  border-style: solid;
+  /* display: */
+
+} 
+
+.center-column {
+  background-color: azure;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.descripton {
+  /* display: inline-block; */
+}
+
+.right-column {
+  background-color: brown;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  /* order: 1; */
+  /* this will re order the child columns, 1 is the largest value (0 is on each child by default) so it moves this column to the right */
+
+  /* this will grow the column to take all the available space in the parent container. use flex grow on multiple children to grow them to the size of the parent container flex-shrink is the opposite of this. Flex-basis add a default width in pixels.
+  flex combines flex grow, shrink, and basis, and uses two number values and auto so itll look like flex: 1, 0, 200px; with flex wrap this can be */
+}
+
+h2 {
+  color: green; 
+  margin-top: 5px;
+} 
+
+.drunk-word:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.flexbox-for-button {
+  background-color: blueviolet;
+  flex-direction: row-reverse;
+}
+
+.btn {
+  color: yellowgreen;
+  background-color: black;
+  margin-left: 5px;
+  border: 2px, thick;
+  /* height: 35px; */
+  border-radius: 20px;
+  cursor: pointer;
+  border-width: 3px;
+  border-color: gray;
+  border-style: solid;
+  transition: opacity 3s,
+      color 1s;
+  box-shadow: 20px 5px 10px rgba(0,0,0 0.15); 
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  /* vertical-align: top; by default the browser aligns text to text, this overrides that  */
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+  color: red;
+  opacity: 0.1;
+}
+
+.btn:active {
+  background-color: white;
+}
+
+.far-right-column {
+  background-color: grey;
+}
