@@ -1,6 +1,6 @@
 .left-column {
   display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
   flex-wrap: wrap;
   flex-grow: 1;
   flex: 0 0 350px;
@@ -22,7 +22,7 @@
 
 .center-column {
   display: flex;
-  background-color: azure;
+  /* background-color: azure; */
   flex-wrap: wrap;
   /* flex-grow: 1; */
   flex: 1 0 350px;
@@ -34,7 +34,7 @@
 }
 
 .right-column {
-  background-color: brown;
+  /* background-color: brown; */
   flex-wrap: wrap;
   /* flex-grow: 2; */
   flex: 2 0 350px;

@@ -6,7 +6,7 @@ body {
 .flexbox-container {
   display: flex;
   /*this will will display all the child flexboxes in the parent container and will put each next to each other. */
-  background-color: wheat;
+  /* background-color: wheat; */
   /* flex-direction: row-reverse or column  */
   /* this will make your flexbox into a column. it is horizontal by default */
   /* justify-content: center; space-between; space-around space-evenly this defines how the browser distrubutes space between and around elements in the flex container. esssentially its adding space between each child container in the parent flexbox; */ 
